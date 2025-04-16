@@ -1,5 +1,5 @@
 #CI项目
-name: CWRT-ALL
+name: A31-NekokeCore
 
 #CI计划
 on:
