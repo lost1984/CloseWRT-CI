@@ -15,13 +15,14 @@ on:
           - MT7986
           - TEST
       SOURCE:
-        default: 'padavanonly/immortalwrt-mt798x-6.6'
+        default: 'padavanonly/immortalwrt-mt798x-24.10'
         required: true
         type: choice
         options:
-         - padavanonly/immortalwrt-mt798x-6.6
+         - padavanonly/immortalwrt-mt798x-24.10
+         - NekokeCore/immortalwrt-mt798x-24.10
       BRANCH:
-        default: 'openwrt-24.10-6.6'
+        default: '2410'
         required: true
         type: string
       PACKAGE:
